@@ -1,4 +1,4 @@
-def call(name)
+def call()
 {
-   echo 'Hello ${name}'
+   echo 'Hello shared library'
 }
