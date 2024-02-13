@@ -1,3 +1,4 @@
-def call(){
-      ech "Hello Shared library"
+def call()
+{
+      echo "Hello Shared library"
 }
