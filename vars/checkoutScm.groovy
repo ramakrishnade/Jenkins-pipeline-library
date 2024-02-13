@@ -1,4 +1,6 @@
 def call(String repository, String branchname)
 {
-      echo "Hello Shared library ${repository},${branchname}"
+      branches: [[name: '*/master']], 
+      extensions: [], 
+      userRemoteConfigs: [[url: 'https://github.com/ramakrishnade/hello-app.git']])
 }
