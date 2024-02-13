@@ -1,4 +1,4 @@
-def call()
+def call(String repository, String branchname)
 {
-      echo "Hello Shared library"
+      echo "Hello Shared library ${repository},${branchname}"
 }
