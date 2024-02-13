@@ -1,3 +1,3 @@
-def call(String repoUrl, String branch){
- ech "Hello"
+def call(){
+      ech "Hello Shared library"
 }
