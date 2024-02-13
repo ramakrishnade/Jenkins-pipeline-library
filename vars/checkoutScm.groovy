@@ -1,6 +1,4 @@
-def call(String repository, String branchname)
+def call(String repository, String branch)
 {
-      branches: [[name: '*/master']], 
-      extensions: [], 
-      userRemoteConfigs: [[url: 'https://github.com/ramakrishnade/hello-app.git']]
+    git url: "https://github.com/ramakrishnade/hello-app.git"
 }
