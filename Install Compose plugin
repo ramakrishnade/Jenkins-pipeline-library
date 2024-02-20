@@ -1,1 +1,4 @@
-
+Install the Compose plugin
+sudo yum update
+sudo yum install docker-compose-plugin
+docker compose version
