@@ -1,0 +1,7 @@
+ Creating an Access Token
+Sign in to Docker Hub using your credentials.
+In the top-right corner, click on your username, and from the drop-down menu, select "Account Settings."
+Navigate to the "Security" tab and then click on "New Access Token."
+Provide a descriptive name for your token, indicating its use case or purpose.
+Set the access permissions for the token, which determine the restrictions in your repositories. For instance, you can grant Read & Write permissions to an automation pipeline for building and pushing images but prevent it from deleting repositories.
+Click on "Generate" to create the access token. Make sure to copy the token that appears on the screen and save it securely since you won't be able to retrieve it later

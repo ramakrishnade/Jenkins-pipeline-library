@@ -1,0 +1,8 @@
+Install the Compose plugin
+Update the package index, and install the latest version of Docker Compose:
+
+sudo yum update
+sudo yum install docker-compose-plugin
+Verify that Docker Compose is installed correctly by checking the version.
+
+docker compose version
