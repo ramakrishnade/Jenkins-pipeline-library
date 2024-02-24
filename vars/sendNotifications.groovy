@@ -10,7 +10,7 @@ def call(String buildStatus = 'STARTED') {
   // Default values
   def color = 'RED'
   def colorCode = '#FF0000'
-  def subject = "Jenkins Build ${buildStatus}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
+  def subject = "Jenkins Build ${buildStatus}: Job Name: '${env.JOB_NAME} [${env.BUILD_NUMBER}]'"
   def summary = "${subject} (${env.BUILD_URL})"
    def details = """
             <p>Build Status : ${currentBuild.currentResult}</p>
