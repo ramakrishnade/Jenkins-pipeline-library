@@ -1,7 +1,7 @@
-def(SonarQube,scannerHome)
+def(Map sonarParams)
 {
-    withSonarQubeEnv('$(SonarQube)') {
-        sh "${scannerHome}/bin/sonar-scanner"
+    withSonarQubeEnv('$(sonarParams.SonarQube)') {
+        sh "${sonarParams.scannerHome}/bin/sonar-scanner"
     }
 
 }
