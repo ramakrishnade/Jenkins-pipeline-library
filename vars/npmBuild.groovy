@@ -1,1 +1,3 @@
-
+def(){
+    sh 'npm install'
+}
