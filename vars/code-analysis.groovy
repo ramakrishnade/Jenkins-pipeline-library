@@ -1,8 +1,8 @@
-def(Map sonarParams)
+def()
 {
-    withSonarQubeEnv("${sonarParams.SonarQube}") {
-        echo "${sonarParams.SonarQube}.${sonarParams.scannerHome}"
-        sh "${sonarParams.scannerHome}/bin/sonar-scanner"
+    def scannerHome = tool 'SonarQube-5.0.1.3006';
+    withSonarQubeEnv('SonarQube') {
+        sh "${scannerHome}/bin/sonar-scanner"
     }
 
 }
