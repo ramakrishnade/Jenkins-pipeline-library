@@ -1,1 +1,1 @@
-
+def(){sh 'node test'}
