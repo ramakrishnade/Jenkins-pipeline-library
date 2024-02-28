@@ -1,3 +1,4 @@
-def(){
-    sh 'npm install'
+def()
+{
+    sh "npm install"
 }
