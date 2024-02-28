@@ -1,6 +1,6 @@
 def(SonarQube,scannerHome)
 {
-    withSonarQubeEnv(SonarQube) {
+    withSonarQubeEnv('$(SonarQube)') {
         sh "${scannerHome}/bin/sonar-scanner"
     }
 
